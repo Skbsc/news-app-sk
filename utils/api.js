@@ -5,6 +5,7 @@ const USE_MOCK_DATA = false// Set to false to use the real API
 // Import mock data
 import mockData from "@/data/mockNews.json"
 
+
 // Fetch top news articles
 export async function fetchTopNews() {
   if (USE_MOCK_DATA) {
